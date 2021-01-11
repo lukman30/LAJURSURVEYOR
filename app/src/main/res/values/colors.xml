@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="wDasar">#03A9F4</color>
+    <color name="wDasarLight">#03A9F4</color>
+    <color name="wDasarDark">#03A9F4</color>
+    <color name="wHitam">#000000</color>
+    <color name="wHitamTeks">#212121</color>
+    <color name="wPutih">#ffffff</color>
+    <color name="merah">#E91E63</color>
+    <color name="colorLine">#dad6d6</color>
+    <color name="kedua">#E91E63</color>
+    <color name="grey">#E9EAEE</color>
+    <color name="yellow">#FFAF38</color>
+    <color name="goodgrey">#535353</color>
+    <color name="blue">#293859</color>
+    <color name="lightgrey">#EEEEEE</color>
+    <color name="sukses">#4CAF50</color>
+    <color name="df_transparent_black_background">#80000000</color>
+    <color name="colortext">#808285</color>
+</resources>

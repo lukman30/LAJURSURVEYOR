@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.baba.lajursurveyor.login.Login">
+
+    <RelativeLayout
+        android:id="@+id/bgatas"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo_lajur5"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bgatas"
+        android:padding="20dp">
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/masuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            app:rippleColor="@color/wPutih"
+            app:cornerRadius="90dp"
+            app:iconPadding="20dp"
+            android:text="login"/>
+
+        <TextView
+            android:text="Lajur Surveyor version 1.0"
+            android:gravity="center_horizontal"
+            android:textSize="11sp"
+            android:textColor="@color/wHitam"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/fontTextView</item>
+        <item name="android:editTextStyle">@style/fontEditText</item>
+        <item name="buttonStyle">@style/fontButton</item>
+    </style>
+
+    <style name="StyleDasar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="fontTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/segoeui</item>
+        <item name="android:font" tools:targetApi="o">@font/segoeui</item>
+    </style>
+
+    <style name="fontEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/segoeui</item>
+        <item name="android:font" tools:targetApi="o">@font/segoeui</item>
+    </style>
+
+    <style name="fontButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/segoeui</item>
+        <item name="android:font" tools:targetApi="o">@font/segoeui</item>
+    </style>
+
+    <style name="halDepan" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowLightStatusBar"
+            tools:targetApi="m">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/fontTextView</item>
+        <item name="android:editTextStyle">@style/fontEditText</item>
+        <item name="buttonStyle">@style/fontButton</item>
+    </style>
+
+    <style name="NavigationText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/segoeui</item>
+    </style>
+
+
+    <style name="df_dialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowBackground">@color/df_transparent_black_background</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="df_dialog2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowBackground">@color/df_transparent_black_background</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+</resources>

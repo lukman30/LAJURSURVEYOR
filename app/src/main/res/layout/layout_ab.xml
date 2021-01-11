@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/cari"
+        android:padding="8dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="2dp"
+        android:text="cari"
+        android:fontFamily="@font/segoeui"
+        android:drawableLeft="@drawable/ic_cari"
+        android:textColor="@color/wHitamTeks"
+        android:gravity="center_vertical"
+        android:background="@drawable/border_abu_bg_putij3"
+        android:drawablePadding="5dp"
+        android:layout_width="0dp"
+        android:layout_weight="1.7"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_weight=".3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/pesan"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_notif"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+            <FrameLayout
+                android:id="@+id/lbadge"
+                android:visibility="gone"
+                style="?attr/actionButtonStyle"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="3dp"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:focusable="true">
+                <TextView
+                    android:id="@+id/badge"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="right|end|top"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="-5dp"
+                    android:layout_marginRight="-5dp"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:textColor="@android:color/white"
+                    android:text="0"
+                    android:background="@drawable/lbadge"
+                    android:textSize="9sp"/>
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

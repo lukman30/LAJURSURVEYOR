@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "354626381736",
+    "firebase_url": "https://lajur-317fb.firebaseio.com",
+    "project_id": "lajur-317fb",
+    "storage_bucket": "lajur-317fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354626381736:android:d73dbb894028614d211f9d",
+        "android_client_info": {
+          "package_name": "com.baba.lajur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354626381736-1s71rn622r49u83c48069231j7lr8tti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baba.lajur",
+            "certificate_hash": "e6030cf8169c12726ce1f4d4acc18c8eb487d428"
+          }
+        },
+        {
+          "client_id": "354626381736-is9949f8hqsamm5smo84dea94j69g5vr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baba.lajur",
+            "certificate_hash": "e01c5fd7c0a9044972a6c1d14198196573e46612"
+          }
+        },
+        {
+          "client_id": "354626381736-q1h966kr3usppt1b2cq9do91qui82e5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRrWaYUquxPeccn-207qyqFEu_GJwRJ8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354626381736-q1h966kr3usppt1b2cq9do91qui82e5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354626381736:android:08ca9345e2cb477a211f9d",
+        "android_client_info": {
+          "package_name": "com.baba.surveyor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354626381736-8pd7a7qbmnhbdgeqce01s18fp603hs16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baba.surveyor",
+            "certificate_hash": "a9538e60eb84ff3a23ea12018fb3bad9c43b13c8"
+          }
+        },
+        {
+          "client_id": "354626381736-q1h966kr3usppt1b2cq9do91qui82e5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRrWaYUquxPeccn-207qyqFEu_GJwRJ8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354626381736-q1h966kr3usppt1b2cq9do91qui82e5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

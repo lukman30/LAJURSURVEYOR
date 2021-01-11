@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fontTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/segoeui</item>
+        <item name="android:font">@font/segoeui</item>
+    </style>
+
+<!--    <style name="fontEditText" parent="Widget.AppCompat.EditText">-->
+<!--        <item name="android:fontFamily">@font/segoeui</item>-->
+<!--        <item name="android:font">@font/segoeui</item>-->
+<!--    </style>-->
+
+    <style name="fontButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/segoeui</item>
+        <item name="android:font">@font/segoeui</item>
+    </style>
+
+<!--    <style name="fontEditText" parent="Widget.AppCompat.EditText">-->
+<!--        <item name="android:fontFamily">@font/segoeui</item>-->
+<!--        <item name="android:font">@font/segoeui</item>-->
+<!--    </style>-->
+</resources>
